@@ -7,12 +7,20 @@
     --botao-ativo: #000000;
     --botao-inativo: rgba(0, 255, 234, 0.5);
     --texto-fundo: rgba(255, 0, 200, 0.3);
+    --Manufacturing: "Manufacturing Consent", system-ui;
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
+}
+
+
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
